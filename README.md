@@ -123,9 +123,9 @@ When we implement this interface's method `getWrappedObject` we can say what has
 
 ```java
     @Override
-public Object getWrappedObject(){
+    public Object getWrappedObject(){
         return determineTargetDataSource();
-        }
+    }
 ```
 
 From now each data source has its own transaction bound to thread with correct keys and connection holder.
