@@ -168,3 +168,5 @@ libraries?
 Can be this usage of `InfrastructureProxy` interface considered as abuse of interface?
 
 Is this gonna correctly work only with pure JDBC access?
+
+See https://github.com/spring-projects/spring-framework/issues/27805 for details.
